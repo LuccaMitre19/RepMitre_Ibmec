@@ -1,0 +1,272 @@
+Inteligência Artificial:
+
+A Inteligência Artificial (IA) é o conceito que se dá a execução das maquinas de realizarem tarefas que originalmente requeriam de uma inteligência humana. Atualmente, a IA está na vida de todas as pessoas, das tarefas mais simples, como a descrição de algo até as tarefas mais complexas, a criação de imagens para elaboração de um vídeo. A IA é o aprendizado da maquina com grandes quantidadesa de dados
+
+Ref: https://www.ibm.com/topics/artificial-intelligence
+
+Nuvem:
+A nuvem refere-se ao armazenamento e acesso a dados e programas pela internet, em vez de usar o disco rígido local, gerando mais velocidade e menor custo. 
+
+Ref:https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing
+
+Dados:
+
+Dados é uma coleção bruta de informação, é que com isso podem virar exemplo de estatistica ou feedbacks.
+
+Ref: https://elementor.com/blog/data/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&lang=&gad_source=1&gclid=Cj0KCQjwwuG1BhCnARIsAFWBUC1iZ4jWAvn1LUF_2PQEAdZeXP6F3nZ_ZxhxFjbh3qvq52ud9N44swMaAmuxEALw_wcB
+
+Informação:
+
+Informação é o resultado da coleta de dados, gerando mais organização e estruturação de maneira que se torne útil e significativa. 
+
+Ref: https://elementor.com/blog/data/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&lang=&gad_source=1&gclid=Cj0KCQjwwuG1BhCnARIsAFWBUC1iZ4jWAvn1LUF_2PQEAdZeXP6F3nZ_ZxhxFjbh3qvq52ud9N44swMaAmuxEALw_wcB
+
+Banco de Dados:
+
+Um banco de dados é uma coleção organizada de dados com facil  acesso, gerenciada e atualizada. 
+
+Ref: https://www.oracle.com/database/what-is-database/
+
+
+Aula 2
+
+A) A Lei Geral de Proteção de Dados (LGPD) no Brasil tem uma relação significativa com os data centers, que são essenciais para o armazenamento, processamento e gerenciamento de dados. A LGPD estabelece normas e requisitos que afetam diretamente como os data centers operam e como os dados pessoais são tratados. Por exemplo, a segurança da informação A LGPD exige que dados pessoais sejam protegidos contra acesso não autorizado, vazamentos e outras ameaças. Data centers devem implementar medidas de segurança robustas, como criptografia, controles de acesso físico e lógico, e monitoramento contínuo para garantir a integridade e a confidencialidade dos dados pessoais.a LGPD impõe uma série de requisitos e responsabilidades aos data centers no Brasil para garantir que os dados pessoais sejam protegidos de maneira adequada. 
+
+B1) O formato de arquivo de dados abertos garante o acesso a dados a longo prazo e indica uma especificação técnica de dominio publico. Um exemplo disso é o HTML. O formato de arquivo de dados proprietário são definidos por interesses privados e o usuario corre o risco de perder as inforemações contidas no arwuivo caso software pare de funcionar. Um exemplo de um formato proprietário é o PPT.
+
+B2) Os dados publicos são informações disponibilizadas para o publico em geral, sem restrições de privacidade, segurança ou controle de acesso, podendo ser modificados, analisados e compartilhados. No entanto, existem diversas implicações como por exemplo, a privacidade e proteção de dados, é importante garantir que as informações pessoais sensiveis não sejam incluidas. Outro exemplo de implicação é a segurança da informação contra abusos, haja vista que a ausencia de restrições de acesso não deve significar a ausencia de segurança.
+
+Aula 3
+
+1)
+
+Java é uma linguagem compilada, isto é, a máquina utiliza um compilador para lê-la. A maquina só reconhece apenas 0 e 1, apenas binarios, o java pega a linguagem dos "humanos" e transforma em uma linguagem binária (linguagem de maquina). Se utiliza muito em desenvolvimento de aplicativos Android.
+
+Javascript é uma linguagem interpretada, isto é, a máquina não precisa de um compilador para lê-la. A linguagem interpretada, a maquina interpreta o código a nivel do que a pessoa roda.  Se utiliza muito em desenvolvimento de web.
+
+C, apesar de ser uma linguagem compilada, é uma linguagem de mais baixo nivel, ou seja, com mais performance com relação as outras (rapidez). Se utiliza muito em desenvolvimento de sistemas operacionais. 
+
+2) Código de java:
+
+public class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        int sum = a + b;
+        System.out.println("A soma é: " + sum);
+    }
+}
+
+Código de Javascript:
+
+let a = 5;
+let b = 10;
+let sum = a + b;
+console.log("A soma é: " + sum);
+
+Código de C:
+
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    int b = 10;
+    int sum = a + b;
+    printf("A soma é: %d\n", sum);
+    return 0;
+
+Aula 4
+
+1) Estrutura de repetição:
+
+Código: 
+
+profissão = ('Advogado', 'Medico', 'Dentista', 'Jornalista')
+for profissão in profissão:
+    print (profissão)
+
+2) Estrutura de tomada de decisão 
+
+#Variável CNH
+idade = 15
+
+#Condição Para Verificar a Idade
+if idade >=18:
+    print("Autorizado. Uhuu!!!")
+else:
+    print("Poxa vida, não pode!")
+
+Aula 5
+
+1- def bubbleSort(alist) :
+for passnum in range(len(alist)-1,0,-1):
+houve_troca = False
+for i in range(passnum):
+if alist[i] > alist[i+1]:
+alist[i], alist[i+1] = alist[i+1], alist[i]
+houve_troca = True
+if not houve_troca:
+break
+
+# Exemplo de uso
+
+alist = [64, 34, 25, 12, 22, 11, 90]
+
+print( "Lista original:", alist)
+
+bubbleSort(alist)
+
+print("Lista ordenada:", alist)
+
+Saída do programa:
+
+Lista original: [64, 34, 25, 12, 22, 11, 90] Lista ordenada: [11, 12, 22, 25, 34, 64, 90]
+
+2- implemente um algorítmo que imprima apenas as vogais de uma determinada palavra ou frase
+
+def imprimir_vogais (texto):
+
+# Definir as vogais
+
+vogais = "aeiouAEIOU"
+
+# Iterar sobre cada caractere no texto
+
+resultado = [letra for letra in texto if letra in vogais]
+
+# Imprimir as vogais encontradas
+
+print ("Vogais encontradas:", "". join(resultudo))
+
+# Exemplo de uso
+
+frase = "Bom dia Família" imprimir_vogais (frase)
+
+Saída do programa:
+
+Vogais encontradas: oi a ai a
+
+Aula 6 
+
+1) 
+
+def imprimir_informacoes(nome, idade, cidade):
+    # Usando o argumento sep para definir o separador entre os parâmetros
+    # e o argumento end para definir o final da linha
+    print(f'Nome: {nome}', f'Idade: {idade}', f'Cidade: {cidade}', sep=' | ', end='\n')
+
+# Exemplo de uso da função
+imprimir_informacoes(
+imprimir_informacoes
+
+imprimir_inf
+
+imprimi
+'João', 30, 'São Paulo')
+
+2) 
+
+def calculadora():
+    # Solicita ao usuário o primeiro número
+    num1 = float(input("Digite o primeiro número: "))
+    # Solicita ao usuário o segundo número
+    num2 = float(input("Digite o segundo número: "))
+    # Solicita ao usuário a operação desejada
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+
+    # Calcula o resultado com base na operação
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            print("Erro: Divisão por zero não é permitida.")
+            return
+    else:
+        print("Operação inválida. Por favor, escolha +, -, * ou /.")
+        return
+
+    # Imprime o resultado
+    print(f"O resultado de {num1} {operacao} {num2} é {resultado}")
+
+# Exemplo de uso da função
+calculadora()
+
+
+3) 
+
+def lista_de_compras():
+    
+    
+# Solicita ao usuário para digitar os itens separados por vírgula
+    entrada = 
+    e
+input("Digite os itens da lista de compras, separados por vírgula: ")
+    
+    
+    
+# Divide a entrada em uma lista usando a vírgula como delimitador
+    itens = [item.strip() 
+    itens = [item.strip() 
+
+    itens = [item.
+
+    itens = [it
+
+    iten
+
+    i
+
+ 
+for item in entrada.split(',')]
+    
+ 
+# Imprime cada item em uma linha separada com numeração
+    
+   
+for i, item in enumerate(itens, start=1):
+        
+   
+print(f"Item {i}: {item}")
+
+4)
+
+def celsius_para_fahrenheit():
+    try:
+        # Solicita ao usuário a temperatura em graus Celsius
+        celsius = float(input("Digite a temperatura em graus Celsius: "))
+        
+        # Converte a temperatura para Fahrenheit usando a fórmula
+        fahrenheit = (celsius * 9/5) + 32
+        
+        # Imprime o resultado
+        print(f"A temperatura em Fahrenheit é: {fahrenheit:.2f}")
+    
+    except ValueError:
+        print("Entrada inválida. Por favor, insira um número válido para a temperatura.")
+
+5)
+
+def coletar_nomes():
+    nomes = []  # Inicializa uma lista vazia para armazenar os nomes
+
+    while True:  # Inicia um loop que vai continuar até ser interrompido
+        nome = input("Digite um nome (ou 'sair' para encerrar): ")  # Pede ao usuário para digitar um nome
+
+        if nome.lower() == 'sair':  # Verifica se o usuário digitou 'sair'
+            break  # Sai do loop se o nome for 'sair'
+
+        nomes.append(nome)  # Adiciona o nome à lista de nomes
+
+    # Após sair do loop, imprime todos os nomes que foram digitados
+    print("Nomes digitados:")
+    for nome in nomes:  # Itera sobre a lista de nomes
+        print(nome)  # Imprime cada nome em uma nova linha
+
+# Chama a função para executar
+coletar_nomes()
